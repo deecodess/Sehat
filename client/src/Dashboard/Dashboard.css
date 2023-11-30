@@ -1,0 +1,70 @@
+/* Dashboard.css (or your CSS file) */
+
+.image-con {
+    width: 50%;
+
+}
+
+#img-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dashboard-container {
+    /* background-image: url('C:\Users\kjiva\Downloads\Sehat\Sehat\client\src\assets\Sehat1.jpg'); Set the background image path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    /* 100% of the viewport height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: xx-large;
+    color: #0052A8;
+}
+
+
+.report-list {
+    list-style: none;
+    padding: 0;
+}
+
+.report-item {
+    display: grid;
+    grid-template-columns: max-content auto max-content auto max-content;
+    align-items: center;
+    margin: 10px 0;
+    grid-gap: 30px;
+    /* Adjust this value for the desired space between columns */
+}
+
+.report-icon {
+    max-width: 50px;
+}
+
+.report-name {
+    font-size: 16px;
+}
+
+.report-date {
+    font-size: 12px;
+    /* Adjust font size as needed for the date */
+}
+
+.download-button {
+    padding: 5px 10px;
+    background-color: #0052A8;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Force one report per row */
+.report-item:nth-child(4n+1) {
+    grid-column: 1 / -1;
+    /* Span all columns for every fourth element to force a new row */
+}

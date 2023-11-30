@@ -1,0 +1,101 @@
+/* Login.css (or your CSS file) */
+.image-con {
+    width: 50%;
+
+}
+
+#img-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    /* Center the content horizontally */
+    align-items: center;
+    /* Center the content vertically */
+    height: 100vh;
+    /* 100% of the viewport height */
+    color: #0052A8;
+}
+
+.login-content {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    /* Half of the page width */
+    padding: 20px;
+    /* Add padding for spacing */
+    border: 1px solid #ccc;
+    /* Add a border for visual separation */
+}
+
+.login-image {
+    max-width: 100%;
+    /* Make sure the image doesn't overflow its container */
+    margin-right: 20px;
+    /* Add space between the image and text */
+}
+
+
+/* Login.css (or your CSS file) */
+.login-container {
+    display: flex;
+    justify-content: center;
+    /* Center the content horizontally */
+    align-items: center;
+    /* Center the content vertically */
+    height: 100vh;
+    /* 100% of the viewport height */
+}
+
+.login-content {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    /* Half of the page width */
+    padding: 20px;
+    /* Add padding for spacing */
+    border: 1px solid #ccc;
+    /* Add a border for visual separation */
+}
+
+.login-image {
+    max-width: 100%;
+    /* Make sure the image doesn't overflow its container */
+    margin-right: 20px;
+    /* Add space between the image and text */
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Updated Styles for Input Boxes */
+.custom-input {
+    display: block;
+    width: 100%;
+    /* Ensure input boxes span the full width */
+    margin-top: 5px;
+    /* Adjust as needed for spacing */
+    padding: 5px;
+    /* Padding for better appearance */
+}
+
+.input-group {
+    margin-bottom: 10px;
+    /* Add bottom margin to separate input groups */
+}
+
+/* Increase Login Button Size */
+button[type="submit"] {
+    padding: 10px 20px;
+    /* Adjust padding to increase button size */
+    /* You can adjust the padding values as needed to increase button size */
+    font-size: 14px;
+    /* Adjust font size if needed */
+}
