@@ -4,7 +4,7 @@ import NavBar from '../components/Navbar/NavBar';
 
 describe ('NavBar component', () => {
   it ('renders without crashing', () => {
-    render (<NavBar />);
+    render(<NavBar/>);
   });
 
   it ('toggles menu when hamburger is clicked', () => {

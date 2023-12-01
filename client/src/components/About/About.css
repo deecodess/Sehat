@@ -1,5 +1,5 @@
 .about {
-    width: 100%;
+    width: 100vw;
     padding: 8rem 0;
     background-color: #d1d1d13a;
     display: flex;
@@ -9,8 +9,9 @@
 
 .about .container {
     padding-inline: 330px !important;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+     display: grid; 
+    grid-template-columns: repeat(2, 1fr); 
+    width:100% !important;
     justify-content: center;
     align-items: center;
     padding: 1rem;
@@ -123,7 +124,8 @@
     }
 
     .about {
-        width: 500px;
+        /* width: 500px; */
+        width:80%;
         min-height: 0rem;
         overflow: hidden;
         background-color: #fff;

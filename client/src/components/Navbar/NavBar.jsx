@@ -23,10 +23,7 @@ const NavBar = () => {
             <Link to="upload" smooth="true" duration={500}>Upload</Link>
           </li>
           <li>
-            <Link to="about" smooth="true" duration={500}>About</Link>
-          </li>
-          <li>
-            <a href="https://www.github.com/deecodes/sehat">Github</a>
+            <a href="https://www.github.com/deecodess/Sehat">Github</a>
           </li>
           <li>
             <Link to="/dashboard">Dashboard</Link>
